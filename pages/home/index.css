@@ -1,1 +1,27 @@
-/* Desenvolva seu estilo aqui */
+header {
+    gap: 8.25rem;
+    margin-top: 75px;    
+}
+
+header .header-description {
+    width: 50%;
+    gap: 69px; /*nice*/
+}
+
+.living-icon {
+    width: 30px;
+    height: 22px;
+    background-color: var(--color-brand-100);
+    border-radius: 0 6px;
+}
+
+header .header-img {
+    width: 50%;
+    border-radius: 0 60px;
+    overflow: hidden;
+}
+
+header .header-img img{
+    width: 100%;
+    
+}
