@@ -9,3 +9,12 @@ button {
     color: var(--color-brand-100);
     font-weight: 600;
 }
+
+.return-home {
+    padding: 10px 22px;
+    border-radius: 32px;
+    border: none;
+    background-color: var(--color-grey-800);
+    color: var(--color-grey-200);
+    font-weight: 600;   
+}
