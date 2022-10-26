@@ -1,0 +1,11 @@
+button {
+
+}
+
+.post-link {
+    background-color: transparent;
+    border: none;
+    width: fit-content;
+    color: var(--color-brand-100);
+    font-weight: 600;
+}
