@@ -1,0 +1,32 @@
+button {
+
+}
+
+.post-link {
+    background-color: transparent;
+    border: none;
+    width: fit-content;
+    color: var(--color-brand-100);
+    font-weight: 600;
+}
+
+.return-home {
+    padding: 10px 22px;
+    border-radius: 32px;
+    border: none;
+    background-color: var(--color-grey-800);
+    color: var(--color-grey-200);
+    font-weight: 600;   
+}
+
+footer > a {
+    text-decoration: none;
+    background-color: var(--color-grey-200);
+    color: var(--color-grey-700);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    height: min-content;
+    padding: 7px 22px;
+    border-radius: 32px;
+}

@@ -1,12 +1,113 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/filter.css">
+    <link rel="stylesheet" href="./styles/buttons.css">
+    <link rel="stylesheet" href="./styles/flex.css">
+    <link rel="stylesheet" href="./styles/globalStyles.css">
+    <link rel="stylesheet" href="./pages/home/index.css">
     <title>Living</title>
 </head>
+
 <body>
-    <main></main>
+    <header class="flex">
+        <section class="header-description flex flex-column">
+            <div class="flex align-center gap16">
+                <span class="living-icon"></span>
+                <h1>Living</h1>
+            </div>
+            <div class="flex flex-column gap24">
+                <h2>Cuidando de cada <span class="color-brand1">detalhe</span> da sua casa</h2>
+                <p>Trazendo uma nova e incrível experiência para você e para seu lar </p>
+                <p class="bold">Consumir conteúdos</p>
+            </div>
+        </section>
+        <section class="header-img">
+            <img src="imgs/header-img.jpg" alt="">
+        </section>
+    </header>
+    <nav>
+        <ul class="filter flex">
+           <li class="brand">Todos</li>
+           <li>Pintura</li>
+           <li>Decoração</li>
+           <li>Organização</li>
+           <li>Limpeza</li>
+           <li>Segurança</li>
+           <li>Reforma</li>
+           <li>Aromas</li>
+           <li>Saúde</li>
+        </ul>
+    </nav>
+    <main>
+        <ul class="post-list flex justify-space-between flex-wrap">
+            <li class="flex flex-column gap24">
+                <figure>
+                    <img src="imgs/card1.png" alt="">
+                </figure>
+                <section class="flex flex-column gap16">
+                    <h3>Cuidados para manter com plantas dentro de apartamentos</h3>
+                    <p>Invite as many collaborators as you’d like. They can register as team members or join as guests – no registration required.</p>
+                    <form action="./pages/post/index.html">
+                        <button class="post-link">Acessar conteúdo</button>
+                    </form>
+                </section>
+            </li>
+            <li class="flex flex-column gap24">
+                <figure>
+                    <img src="imgs/card2.png" alt="">
+                </figure>
+                <section class="flex flex-column gap16">
+                    <h3>Cuidados para manter com plantas dentro de apartamentos</h3>
+                    <p>Invite as many collaborators as you’d like. They can register as team members or join as guests – no registration required.</p>
+                    <form action="./pages/post/index.html">
+                        <button class="post-link">Acessar conteúdo</button>
+                    </form>
+                </section>
+            </li>
+            <li class="flex flex-column gap24">
+                <figure>
+                    <img src="imgs/card3.png" alt="">
+                </figure>
+                <section class="flex flex-column gap16">
+                    <h3>Cuidados para manter com plantas dentro de apartamentos</h3>
+                    <p>Invite as many collaborators as you’d like. They can register as team members or join as guests – no registration required.</p>
+                    <button class="post-link">Acessar conteúdo</button>
+                </section>
+            </li>
+            <li class="flex flex-column gap24">
+                <figure>
+                    <img src="imgs/card4.png" alt="">
+                </figure>
+                <section class="flex flex-column gap16">
+                    <h3>Cuidados para manter com plantas dentro de apartamentos</h3>
+                    <p>Invite as many collaborators as you’d like. They can register as team members or join as guests – no registration required.</p>
+                    <button class="post-link">Acessar conteúdo</button>
+                </section>
+            </li>
+        </ul>
+    </main>
+    <div class="bg-footer"></div>
+    <footer class="flex justify-space-between">
+        <div class="flex">
+            <div class="flex align-center gap16">
+                <span class="living-icon"></span>
+                <h2>Living</h2>
+            </div>
+            <p>The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with their software.</p>
+
+        </div>
+        <a href="#top">Voltar para o topo</a>
+
+    </footer>
 </body>
+
 </html>

@@ -1,0 +1,15 @@
+nav .filter{
+    gap: 20px;
+}
+
+nav .filter li{
+    background-color: var(--color-grey-700);
+    color: var(--color-grey-200);
+    border-radius: 32px;
+    padding: 7px 22px;
+}
+
+nav .filter li.brand {
+    background-color: var(--color-brand-100);
+    color: var(--color-grey-800);
+}
