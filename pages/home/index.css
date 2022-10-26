@@ -1,11 +1,11 @@
 header {
     gap: 8.25rem;
-    margin-top: 75px;    
+    margin-top: 75px;
 }
 
 header .header-description {
     width: 50%;
-    gap: 69px; /*nice*/
+    gap: 69px;/*nice*/
 }
 
 .living-icon {
@@ -21,7 +21,23 @@ header .header-img {
     overflow: hidden;
 }
 
-header .header-img img{
+header .header-img img {
     width: 100%;
-    
+}
+
+nav .filter{
+    margin-top: 74px;
+    gap: 20px;
+}
+
+nav .filter li{
+    background-color: var(--color-grey-700);
+    color: var(--color-grey-200);
+    border-radius: 32px;
+    padding: 7px 22px;
+}
+
+nav .filter li.brand {
+    background-color: var(--color-brand-100);
+    color: var(--color-grey-700);
 }
