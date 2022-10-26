@@ -1,0 +1,29 @@
+
+.bg-footer {
+    height: 255px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: var(--color-grey-100);
+    z-index: -1;
+}
+
+footer {
+padding: 92px 0;
+
+}
+
+footer h2{
+    color: var(--color-grey-800);
+}
+
+footer > div {
+    max-width: 730px;
+    gap: 54px;
+}
+
+footer > div p{
+    color: var(--color-grey-800);
+
+}
