@@ -22,12 +22,19 @@ main {
     margin-top: 53px;
     gap: 53px;
 }
+main figure img{
+    height: 400px;
+}
+
 
 main figure img{
     width: 100%;
+    object-fit: cover;
 }
 
 main .post-content p{
+    line-height: 150%;
+    text-align: justify;
     margin-bottom: 2rem;
 }
 
