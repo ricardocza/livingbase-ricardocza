@@ -1,1 +1,2 @@
-/* Desenvolva seu script aqui */
+import { renderCurrentPost } from "../../scripts/renderPost.js";
+renderCurrentPost()
