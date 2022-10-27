@@ -30,3 +30,19 @@ main .post-list {
 main .post-list li {
     width: 548px;
 }
+
+main .post-list li figure {
+    height: 172px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+main .post-list li img{
+    width: 100%;
+    object-fit: cover;
+}
+
+main .post-list li section{
+    height: 50%;
+}
