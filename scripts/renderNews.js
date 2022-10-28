@@ -22,7 +22,7 @@ export async function renderNews(news) {
             button.addEventListener('click', async (event) => {
                 let bulletinID = event.target.closest('li').id.substring(6)
                 const currentNew = await fetchNewById(bulletinID)
-                sessionStorage.setItem('@currentPost', JSON.stringify(currentNew))
+                localStorage.setItem('@currentPost', JSON.stringify(currentNew))
                 window.location.replace('./pages/post/index.html')
             })
             desc.children[1].append(button)

@@ -1,5 +1,5 @@
 export function renderCurrentPost() {
-    const currentPost = JSON.parse(sessionStorage.getItem('@currentPost'))
+    const currentPost = JSON.parse(localStorage.getItem('@currentPost'))
     const main = document.querySelector('main')
     main.insertAdjacentHTML('beforeend', `
     <figure>
