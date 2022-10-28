@@ -1,0 +1,17 @@
+nav .filter{
+    gap: 20px;
+}
+
+nav .filter button{
+    background-color: var(--color-grey-700);
+    color: var(--color-grey-200);
+    border-radius: 32px;
+    border: none;
+    padding: 7px 22px;
+    cursor: pointer;
+}
+
+nav .filter button.brand {
+    background-color: var(--color-brand-100);
+    color: var(--color-grey-800);
+}

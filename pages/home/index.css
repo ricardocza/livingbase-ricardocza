@@ -1,1 +1,48 @@
-/* Desenvolva seu estilo aqui */
+header {
+    gap: 8.25rem;
+    margin: 75px 0;
+}
+
+header .header-description {
+    width: 50%;
+    gap: 69px;/*nice*/
+}
+
+header .header-img {
+    width: 50%;
+    border-radius: 0 60px;
+    overflow: hidden;
+}
+
+header .header-img img {
+    width: 100%;
+}
+
+main {
+    margin: 46px 0;
+}
+
+main .post-list {
+    width: 100%;
+    row-gap: 93px;
+}
+
+main .post-list li {
+    width: 548px;
+}
+
+main .post-list li figure {
+    height: 172px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+main .post-list li img{
+    width: 100%;
+    object-fit: cover;
+}
+
+main .post-list li section{
+    height: 50%;
+}
