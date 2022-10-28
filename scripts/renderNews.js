@@ -1,8 +1,6 @@
 import { fetchNewById } from "./requisitions.js"
 
-export async function renderNews(objectRequest) {
-    const news = objectRequest.news
-    console.log(news)
+export async function renderNews(news) {
     const newsList = document.querySelector('.post-list')
     if(news){
          await news.forEach(element => {
