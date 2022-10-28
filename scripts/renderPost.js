@@ -1,5 +1,4 @@
-export function renderCurrentPost() {
-    const currentPost = JSON.parse(localStorage.getItem('@currentPost'))
+export function renderCurrentPost(currentPost) {
     const main = document.querySelector('main')
     main.insertAdjacentHTML('beforeend', `
     <figure>
@@ -12,6 +11,5 @@ export function renderCurrentPost() {
 
     const postTitle = document.querySelector('.post-title')
     postTitle.innerText = currentPost.title
-    console.log(currentPost)
 }
 

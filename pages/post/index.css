@@ -41,3 +41,7 @@ main .post-content p{
 nav {
     margin: 12px 0 60px;
 }
+
+nav .filter button {
+    cursor: default;
+}
